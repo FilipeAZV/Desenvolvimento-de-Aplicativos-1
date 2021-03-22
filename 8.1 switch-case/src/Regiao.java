@@ -1,0 +1,95 @@
+//Diferença entre o IF ELSE e SWITCH CASE
+
+import javax.swing.JOptionPane;
+
+public class Regiao {
+
+	// Atributos
+	// (\n: quebra de linha)
+	private String menu = 
+			":: Informe a região ::\n\n" 
+			+ "1. Sul\n"
+			+ "2. Sudeste\n"
+			+ "3. Centro-Oeste\n"
+			+ "4. Nordeste\n"
+			+ "5. Norte\n" 
+			+ "0. Sair\n\n"
+			+ "Informe uma das regiões\n\n";
+
+	// Métodos
+	public void criarMenuSwitch() {
+		// Variavél que irá receber a região informada pelo usuário:
+		String regiao = JOptionPane.showInputDialog(
+				null, 
+				menu, // Mensagem
+				"Regiões com Switch Case", // Título
+				3);
+
+		switch (regiao) {
+		case "0":
+			regiao = "Encerrando o sistema...";
+			break;
+
+		case "1":
+			regiao = "Região escolhida: Sul";
+			break;
+
+		case "2":
+			regiao = "Região escolhida: Sudeste";
+			break;
+
+		case "3":
+			regiao = "Região escolhida: Centro-Oeste";
+			break;
+
+		case "4":
+			regiao = "Região escolhida: Nordeste";
+			break;
+
+		case "5":
+			regiao = "Região escolhida: Norte";
+			break;
+
+		default:
+			regiao = "Informe uma das opções do menu";
+		}
+		
+		// Mostra a região escolhida
+		JOptionPane.showMessageDialog(null, regiao, "Região", 1);
+
+	}// Fecha o método criarMenuSwitch
+
+	public void criarMenuIF() {
+
+		String regiao = JOptionPane.showInputDialog(
+				null, 
+				menu, // Mensagem
+				"Regiões com IF ElSE", // Título
+				2); 
+
+		if (regiao.equals("0")) {// Equals: equals é da classe objeto, serve para fazer teste com outra
+			regiao = "Encerrando o sistema...";
+
+		} else if (regiao.equals("1")) {
+			regiao = "Região escolhida: Sul";
+
+		} else if (regiao.equals("2")) {
+			regiao = "Região escolhida: Sudeste";
+
+		} else if (regiao.equals("3")) {
+			regiao = "Região escolhida: Centro-Oeste";
+
+		} else if (regiao.equals("4")) {
+			regiao = "Região escolhida: Nordeste";
+
+		} else if (regiao.equals("5")) {
+			regiao = "Região escolhida: Norte";
+
+		} else { // se a pessoa não colocar número. a resposta será está!
+			regiao = "Informe uma das opções do menu";
+		}
+		// Mostra a região escolhida:
+		JOptionPane.showMessageDialog(null, regiao, "região", 1);
+	}
+
+}
