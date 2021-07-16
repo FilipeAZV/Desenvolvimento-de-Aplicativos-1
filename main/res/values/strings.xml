@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Daily Health</string>
+    <string name="texto">Texto</string>
+    <string name="saudacao">Olá, </string>
+    <string name="info">Não se esqueça! A saúde do corpo começa pela educação da mente.</string>
+    <string name="escolha">Siga em frente! Escolha o que fazer:</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="titulo_ficha_medica">Ficha Médica:</string>
+    <string name="titulo_alimentos">Alimentos:</string>
+    <string name="nenhuma_ficha_medica_cadastrada">Nenhuma ficha cadastrada!</string>
+
+    <string name="cadastrar_alimentos">Cadastro Alimentar</string>
+    <string name="nome_alimentos">Nome do Alimento</string>
+    <string name="marca_alimento">Marca do Alimento</string>
+    <string name="calorias_alimento">Calorias</string>
+    <string name="turno_alimento">Turno de Consumo</string>
+    <string name="descricao_alimento">Descrição</string>
+    <string name="btnCadastrarAlimento">Cadastrar</string>
+
+    <!--TelaCadastroUsuário.java | tela_cadastro_usuario.xml-->
+    <string name="slogan_cadastro">Cadastre-se e comece a mudança hoje!</string>
+    <string name="nome_usuario">Insira seu nome</string>
+    <string name="email_cadastro">Insira seu e-mail</string>
+    <string name="senha_cadastro">Crie uma Senha</string>
+    <string name="repetir_senha">Repetir Senha</string>
+    <string name="cadastrar_usuario">Cadastrar</string>
+
+    <!--TelaLogin.java | tela_login.xml-->
+    <string name="efetuar_login">Olá, Bem Vindo! Faça Login</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="slogan">Olá, Bem Vindo!</string>
+    <string name="email">E-mail</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="senha">Senha</string>
+
+    <!--Tela Cadastro-->
+    <string name="sloganCadastro">Cadastre-se e comece a mudança hoje!</string>
+    <string name="nome">Insira seu nome</string>
+    <string name="emailcadastro">Insira seu e-mail</string>
+    <string name="senhacadastro">Crie uma Senha</string>
+    <string name="repetirsenha">Repetir Senha</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+
+    <!-- Tela Cadastro Ficha Médica -->
+    <string name="Cadastro">Cadastro de Ficha Médica</string>
+    <string name="nascimento">Data de Nascimento:</string>
+    <string name="Peso">Seu peso atual:</string>
+    <string name="Altura">Sua altura:</string>
+    <string name="Doencas">Doenças:</string>
+    <string name="Alergias">Alergias:</string>
+    <string name="Sangue">Tipo sanguíneo:</string>
+    <string name="Doador_Sangue">Doador de Sangue?</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="Doador_Orgao">Doador de Orgãos?</string>
+    <string name="Alergico">Alergico aos seguintes medicamentos:</string>
+    <string name="Medicamento">Medicamentos tomados atualmente:</string>
+    <string name="Contato">Contato para emergências:</string>
+</resources>

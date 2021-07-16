@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_login"
+    tools:context=".TelaLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_layer_gradient"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:text="@string/app_name"
+            android:textSize="25sp"
+            android:background="@color/vermelho_claro"
+            android:textColor="@color/branco"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <LinearLayout
+            android:layout_marginTop="300dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="35dp"
+                android:text="@string/efetuar_login"
+                android:textSize="20dp"
+                android:textColor="@color/branco"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_edittext_normal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/edtInsiraEmail"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:hint="@string/email"
+                android:textColorHint="@color/branco"
+                android:textColor="@color/branco"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_edittext_normal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/edtInsiraSenha"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:hint="@string/senha"
+                android:textColorHint="@color/branco"
+                android:textColor="@color/branco"
+                android:inputType="textPassword"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_button_normal"
+            android:textSize="18dp"
+            android:text="@string/btnEntrar"
+            android:textAllCaps="false"
+            android:textColor="@color/branco"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#00004040"
+            android:outlineSpotShadowColor="#00FFFFFF"
+            android:textSize="18dp"
+            android:text="@string/btnCadastrar"
+            android:textAllCaps="false"
+            android:textColor="@color/branco"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

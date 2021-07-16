@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bege"
+    tools:context=".AdicionarFichaMedica">
+
+    <TextView
+    android:id="@+id/txtTitulo"
+    android:text="@string/app_name"
+    android:textSize="25sp"
+    android:background="@color/vermelho_claro"
+    android:textColor="@color/branco"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="85dp" />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="#56004040"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="35dp"
+            android:text="@string/titulo_ficha_medica"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nenhuma_ficha_medica_cadastrada"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:paddingTop="30dp"/>
+
+    <LinearLayout
+        android:background="@color/bege"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:gravity="bottom">
+
+
+        <ImageButton
+            android:id="@+id/btnAdicionarFichaMedica"
+            android:layout_marginLeft="230dp"
+            android:background="@drawable/adicionar_ficha_medica"
+            android:layout_width="85dp"
+            android:layout_height="85dp" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat> <!--Tag para fechamento-->
+
+

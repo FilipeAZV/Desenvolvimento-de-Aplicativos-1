@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bege"
+    tools:context=".TelaPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vermelho_claro">
+
+    <TextView
+        android:id="@+id/txtSaudacao"
+        android:text="@string/saudacao"
+        android:textSize="25sp"
+        android:paddingLeft="25dp"
+        android:background="@color/vermelho_claro"
+        android:textColor="@color/branco"
+        android:gravity="center_vertical"
+        android:layout_width="350dp"
+        android:layout_height="85dp" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/perfil" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="#56004040"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:text="@string/info"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtEscolha"
+            android:paddingBottom="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:text="@string/escolha"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:background="@color/bege"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnAlimentos"
+            android:layout_marginRight="40dp"
+            android:textAllCaps="true"
+            android:background="@drawable/alimentos_titulo"
+            android:textColor="@color/preto"
+            android:textSize="24sp"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <ImageButton
+            android:id="@+id/btnFichaMedica"
+            android:layout_marginLeft="40dp"
+            android:textAllCaps="true"
+            android:background="@drawable/ficha_medica_titulo"
+            android:textColor="@color/branco"
+            android:textSize="24sp"
+            android:layout_width="110dp"
+            android:layout_height="110dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:background="@color/bege"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnAgua"
+            android:layout_marginRight="40dp"
+            android:textAllCaps="true"
+            android:background="@drawable/agua_titulo"
+            android:textColor="@color/branco"
+            android:textSize="24sp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageButton
+            android:id="@+id/btnAtividadesFisicas"
+            android:layout_marginLeft="40dp"
+            android:textAllCaps="true"
+            android:background="@drawable/atividades_fisicas_titulo"
+            android:textColor="@color/branco"
+            android:textSize="24sp"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat> <!--Tag para fechamento-->
+
+
